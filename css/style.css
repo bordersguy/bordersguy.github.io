@@ -1,0 +1,107 @@
+/*
+ * General Styles
+*/
+html{
+  font-size: 100%;
+
+}
+
+{
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.hero{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -50px
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main{
+  line-height: 1.75;
+  background: #FFF;
+}
+
+.contact{
+  background: rgb(230, 234, 235);
+  text-align: center;
+}
+
+body {
+  background: url('../images/space-background.png');
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+
+/*
+ * Heading Styles
+*/
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 1.5625rem;
+  padding-top:  25px;
+}
+
+h3{
+  margin-top: -20px;
+  padding: 0px 15px 15px 30px
+}
+
+h4{
+  padding: 0px 40px 15px 40px
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+
+
+
+
