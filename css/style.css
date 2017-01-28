@@ -169,6 +169,6 @@ ul li {
     margin-left:  -60px;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltip:focus .tooltiptext {
     visibility: visible;
 }
