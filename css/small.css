@@ -30,7 +30,7 @@
     margin-left:  -60px;
 }
 
-.tooltip:focus .tooltiptext {
+.tooltip:click .tooltiptext {
     visibility: visible;
 }
 
