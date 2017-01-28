@@ -30,6 +30,10 @@
     margin-left:  -60px;
 }
 
+.tooltip:focus .tooltiptext {
+    visibility: visible;
+}
+
 .topimage{
   border-radius: 0;
 
