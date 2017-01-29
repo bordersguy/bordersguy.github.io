@@ -5,7 +5,9 @@
 
 2. Add a section at the bottom as a footer letting your friend know that you coded this yourself using One Month! Like - "I coded this myself for you" (and if you like One Month feel free to put a little link to this class <a href="www.onemonth.com" target="_blank">One Month</a>") ***DONE
 
-3. Solve this problem: When there is only the unicorn image in the <section> the layout breaks. Why?
+3. Solve this problem: When there is only the unicorn image in the <section> the layout breaks. Why?  
+
+  Answer:  I think it has to do with the image being set to float.  My text was actually smaller than the image in that spot....so, my image was flowing out of the section.  I fixed it by setting the height of the h4 style to a rem in
 
 4. View the site on at least one mobile device. What's working? What might still be improved? Ask questions and be curious.  ***DONE    
 
@@ -25,11 +27,9 @@
   </head>
   <body>
     <div class="container">
-         <div class="tooltip">
-         <span class="tooltiptext">My kids, Daehan and Hana</span>
-         <img src="images/kids.jpg" class="topimage tooltip" alt="Cutest Korean Kids Ever">
-         </div>
-
+      
+         <img src="images/kids.jpg" class="topimage" alt="Cutest Korean Kids Ever">
+   
          <section class="main">
          
          <h1>A Small <br>Tribute to Korea!</br></h1>
@@ -46,11 +46,11 @@
            </h3>
          </section><!--main-->
 
-         <section class="contact" class="tooltip">
+         <section class="contact">
            <h2>February 1st, 2017</h2>
             
               <aside class="left">
-                <img src="images/judy.jpg" class="roundimage" class="tooltip" alt="hanbok korea">
+                <img src="images/judy.jpg" class="roundimage" alt="hanbok korea">
               </aside>
 
            <h4>
@@ -78,8 +78,6 @@
          </h3>  
 
          </section><!--footer-->
-         
-      
-    </div>
+    </div><!--container-->
   </body>
 </html>
