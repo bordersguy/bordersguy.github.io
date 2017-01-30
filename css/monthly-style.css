@@ -55,7 +55,7 @@ a {
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
 body {
- background: url('../images/monthlyimages/notebook.png'); /* add a fallback color of #d6d6d6 */
+ background: url('../monthlyimages/notebook.png'); /* add a fallback color of #d6d6d6 */
  color: #000000;
  font-family: 'Lato', sans-serif;
  line-height: 1.7; /* line-height is unit-less */
