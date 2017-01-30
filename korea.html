@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- 
+
+3. Solve this problem: When there is only the unicorn image in the <section> the layout breaks. Why?  
+
+  Answer:  I think it has to do with the image being set to float.  My text was actually smaller than the image in that spot....so, my image was flowing out of the section.  I fixed it by setting the height of the h4 style in the style.css to a 25rem and the height of the h4 style in the small.css to a larger height as the image created more space when it aligned to the center.  This works out on both mobile and desktop.
+
+  But...I don't think this is the best way.  I have a feeling a that you were looking for us to use the clearfix that was sitting in the stlye.css.  I played around with changing the floats and displays....but, I couldn't figure out that method.  I'm looking forward to seeing your explanation.
+
+-->
+
+
+<html>
+  <head>
+    <title>Korea Rocks!</title>
+    <meta name="description" content="Korea Tribute">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/korea-style.css">
+    <link rel="stylesheet" href="css/small.css" media="(max-width: 630px)">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+     </div><!--menu-->
+
+    <div class="container">
+      
+         <img src="images/koreaimages/kids.jpg" class="topimage" alt="Cutest Korean Kids Ever">
+   
+         <section class="main">
+         
+         <h1>A Small <br>Tribute to Korea!</br></h1>
+
+           <aside class="right">
+              <img src="images/koreaimages/korean-flag-heart.jpg" alt="Korean flag heart" class="roundimage">
+           </aside>
+
+           <h3>
+             <p>
+             I've been living in Korea for 11 years.  I really love this country.  This page is my thank you to Korea for taking care of me during my stay here.</p>
+
+             <p>I hope everyone gets a chance to visit this amazing country!</p>
+           </h3>
+         </section><!--main-->
+
+         <section class="contact">
+           <h2>February 1st, 2017</h2>
+            
+              <aside class="left">
+                <img src="images/koreaimages/judy.jpg" class="roundimage" alt="hanbok korea">
+              </aside>
+
+           <h4>
+             <p>The date above will be my 11th anniversary of my first day in Korea.  I'll be moving back to the United States of America sometime in 2018.  
+
+             <p>
+
+             <p>If you have any questions about Korea, feel free to send me an email.</p>
+
+              <p class="centertext"><a href="mailto:calle.christian@gmail.com?Subject=Hey! I got a question about Korea" target="_blank">calle.christian@gmail.com</a>
+              </p>
+
+              <p class="centertext"><img src="images/koreaimages/thanks.jpg" class="bordershadow"  alt="Thank You in Korean" ></p>
+           </h4>
+
+           <section>
+              <iframe src="https://www.google.com/maps/d/embed?mid=1yclds-ufIMlruPaB5d8xiaRL-hk&hl=en_US" width="600" height="480"></iframe>
+           </section><!--google map-->
+
+         </section><!--contact-->
+
+         <section>
+         <h3 class="footer">
+          Created by Christian Calle with the super assistance of <a href="https://www.onemonth.com" target="_blank">One Month</a>
+         </h3>  
+
+         </section><!--footer-->
+    </div><!--container-->
+  </body>
+</html>
