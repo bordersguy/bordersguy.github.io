@@ -1,0 +1,32 @@
+/*
+ * General Styles
+*/
+html{
+  font-size: 100%;
+}
+
+body {
+  background: url('../images/background.png') no-repeat fixed center;
+  /* © 2012-2013 Julien Jorge <julien.jorge@stuff-o-matic.com>*/
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+{
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/*
+ * Container Styles
+*/
+
+.container  {
+  width: 48rem;
+  margin: 0 auto 0 auto;
+  padding: 3rem 0 0 0;
+
+
+}
+
+

@@ -11,5 +11,71 @@ html{
 }
 
 .header{
-	
+	padding: 1rem;
+
 }
+
+.slider{
+
+	margin-bottom: 5rem;
+
+}
+
+.main{
+
+	padding: 2rem;
+	text-align: center;
+
+}
+
+.submain{
+	padding: 2rem;
+	text-align: center;
+
+}
+
+.footer{
+	padding-bottom: 1rem;
+
+}
+
+#bottomspace{
+	margin-bottom: 5rem;
+}
+
+#gray{
+	color: gray;
+}
+
+#red{
+	font-size: 1.5rem;
+	color: red;
+	font-family: 'Cabin', sans-serif;
+
+}
+
+h2{
+	font-size: 1.5rem;
+	color: gray;
+
+}
+
+h3{
+	text-align: center;
+
+
+
+}
+
+h4{
+	padding-top: 1rem;
+	font-size: 1rem;
+	color: gray;
+}
+
+p{
+
+	font-size: 1.25rem;
+}
+
+

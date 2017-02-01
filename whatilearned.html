@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- Complete the project using your knowledge of HTML & CSS. Inside the download folder (above) is a screenshot of the design you are trying to match. Do your best to complete at least 75%-100% of the project (seriously, don't get too hung up on making it pixel perfect - the goal here is just to move forward with building). 
+Make this project your own! Get creative. Use your own images, your own colors. The version that you submit should be your own unique version of the project. You will receive a grade on your code quality + creativity. 
+Submit your work via the Homework Google Form 
+ -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Chris Castiglione, and the One Month team">
+    <title>What I Learned: One Month HTML</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Brand</a>
+          </div>
+
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="htmlprojects.html">HTML<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Game Development</a></li>
+              <li><a href="#">Blog</a></li>
+              <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul> -->
+              </li>
+            </ul> 
+        
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+      <section class="header">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>
+              < / > What I Learned: One Month HTML
+            </h2>
+          </div>  
+          <div class="col-md-2">
+            <h4>
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              email
+            </h4>
+          </div> 
+            <div class="col-md-2">
+            <h4>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+              facebook
+            </h4>
+          </div> 
+        </div><!--header row-->
+      </section><!--header-->
+
+
+      <section id="bottomspace">
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/final/beach.jpg" alt="beach scene van">
+              <div class="carousel-caption">
+                <h1>HTML is my beach house</h1>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/final/tea.jpg" alt="tea table">
+              <div class="carousel-caption">
+                <h1>JavaScript is my Hot Hot Tea</h1>
+              </div>
+             </div>  
+            <div class="item">
+              <img src="images/final/birds.jpg" alt="birds cliff">
+              <div class="carousel-caption">
+                <h1>CSS is where I meet my friends</h1>
+              </div>
+            </div>
+            ...
+          </div><!--wrapper for slides-->
+
+        <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div><!--carousel-->
+      </section>
+ 
+
+
+   <section class="main">
+      <div class="row" id="bottomspace"><!--row1-->
+        <div class="col-md-7">
+          <h1>HTML is <a id="gray">100% Free</a></h1>
+
+          <p>No gimmicks. No bull. HTML is brought to you for free by the W3C.  It can be used from the comfort of your own home.  And it works in the browser along with CSS and JavaScript.  Use all three to make a kickass Website!</p>
+        </div>  
+        <div class="col-md-5">
+          <img src="images/final/dog.jpg">
+        </div> 
+      </div><!--row1-->
+
+      <div class="row" id="bottomspace"><!--row2-->
+        <div class="col-md-5">
+             <img src="images/final/chrome.jpg">
+        </div>  
+        <div class="col-md-7">
+        <h1>What's included in HTML?</h1>
+
+        <p>Tags to make words <b>bold</b>. <i>Like a boss</i> and tons of CSS properties to style your page:</p>
+        <p id="red">.ninja { color:  black;  visibility:  none; } </p>
+       
+        </div> 
+      </div><!--row2-->
+    </section><!--main-->
+
+    <section class=submain>
+      <h2 id="bottomspace"><b>HTML is Trusted By 100,000+ Companies inclucing</b></h2>
+
+       <div class="row" id="bottomspace"><!--row3-->
+        <div class="col-md-3">
+           <img src="images/final/g1.png">
+        </div>  
+        <div class="col-md-3">
+          <img src="images/final/g2.png">
+        </div> 
+         <div class="col-md-3">
+          <img src="images/final/g3.png">
+        </div> 
+         <div class="col-md-3">
+          <img src="images/final/g4.png">
+        </div> 
+      </div><!--row3-->
+
+
+    </section>
+
+    <section class=footer>
+      <div class="row"><!--row3-->
+        <div class="col-md-10">
+          Made by Christian Calle with <a href="https://onemonth.com" target="_blank"><b>One Month HTML</b>
+        </div>  
+        <div class="col-md-2">
+          <a href="#">back to top</a>
+        </div> 
+      </div><!--row3-->
+
+
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
