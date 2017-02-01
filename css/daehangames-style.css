@@ -28,25 +28,25 @@ body {
 }
 h1{
 	/*margin-top:  -20px;*/
-	margin-bottom: 30px;
+	/*margin-bottom: 1rem;*/
 	color: #F29BB5;
-	font-size: 80px;
+	font-size: 60px;
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
 
 }
 
 h2{
-	margin-top:  -50px;
+	/*margin-top:  -50px;*/
 	color: black;
 	font-size: 20px;
 	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
-
+  margin: 0 0 1.5rem 0;
 }
 
 
 h3{
 	
-	margin-top: -10px;
+	/*margin-top: -10px;*/
 	color: #E3649F;
 	font-size: 50px;
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
@@ -55,8 +55,7 @@ h3{
 
 
 h4{
-	margin-left: 80px;
-	margin-bottom: 50px;
+	text-align: center;
 }
 
 .container2{
@@ -79,8 +78,8 @@ h4{
 h5{
 	text-shadow: -1px 0 #000000, 0 1px #000000,1px 0 #000000,0 -1px #000000;
 	
-	margin-top:  -30px;
-	margin-bottom: 50px;
+	/*margin-top:  ;*/
+	margin-bottom: 1rem;
 	color: #984E8B;
 	font-size: 60px;
 }
@@ -88,46 +87,15 @@ h5{
 
 
 iframe {
-	width: 500px;
+	width: 43.5rem;
 	
-	
+
 	border-color: white;
-	border-width: 5px;
-	margin-left: -4px;
+  border-width: .3125rem;
+
 }
 
-ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
 
 
 
