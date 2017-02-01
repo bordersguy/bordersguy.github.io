@@ -25,8 +25,29 @@ body {
   width: 48rem;
   margin: 0 auto 0 auto;
   padding: 3rem 0 0 0;
+}
 
+.forcaption {
+    background-color: #000;
+    bottom: 1rem;
+    color: #fff;
+    left: 1rem;
+    opacity: 0.7;
+    position: absolute;
+    width: 80%;
+    padding-left: .3125rem;
+    font-size: 1.5rem;
+}
 
+h1{
+
+  font-size: 3rem;
+
+}
+
+h2{
+   padding: .3125rem;
+   font-size: 1.5rem;
 }
 
 

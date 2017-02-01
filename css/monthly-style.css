@@ -55,7 +55,7 @@ a {
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
 body {
- background: url('../monthlyimages/notebook.png'); /* add a fallback color of #d6d6d6 */
+ background: url('../images/monthlyimages/notebook.png'); /* add a fallback color of #d6d6d6 */
  color: #000000;
  font-family: 'Lato', sans-serif;
  line-height: 1.7; /* line-height is unit-less */
@@ -65,37 +65,6 @@ body {
 }  
 
 
-.ulmenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.limenu {
-    float: left;
-}
-
-.liblock a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.lihover a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
 
 .container{
 	width: 935px;
@@ -103,7 +72,7 @@ body {
 }
 
 .header{
-	padding: 70px 50px 25px 0px;
+	padding: 0 50px 25px 0px;
 	line-height: 0px;
 }
 
