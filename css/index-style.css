@@ -42,7 +42,11 @@ body {
 .fadedbackground{
   background: rgba(255,255,255,.40);
   border-radius: .25rem;
+}
 
+.imgcenter{
+
+  text-align: center;
 
 }
 
