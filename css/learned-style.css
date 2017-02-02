@@ -48,9 +48,16 @@ html{
 }
 
 #purple{
-	font-size: 1.5rem;
 	color: purple;
-	font-family: 'Cabin', sans-serif;
+}
+
+.border{
+	border: #E8E8E8 solid 4px;
+
+}
+
+.collapse{
+	display: none;
 
 }
 

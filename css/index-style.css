@@ -6,7 +6,7 @@ html{
 }
 
 body {
-  background: url('../images/background.png') no-repeat fixed center;
+  /*background: url('../images/background.png') no-repeat fixed center;*/
   /* © 2012-2013 Julien Jorge <julien.jorge@stuff-o-matic.com>*/
   font-family: 'Open Sans', arial, sans-serif;
 }
@@ -25,6 +25,7 @@ body {
   width: 48rem;
   margin: 0 auto 0 auto;
   padding: 3rem 0 0 0;
+
 }
 
 .forcaption {
@@ -45,19 +46,52 @@ body {
 }
 
 .imgcenter{
-
   text-align: center;
+}
+
+.border{
+  border: gray solid .3125rem;
+
+
+}
+
+#banner {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 4rem;
+  z-index: -1;
+  background: #61c2d8;
+}
+
+
+footer{
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+
 
 }
 
 h1{
-
+  color: white;
   font-size: 3rem;
+  padding: .3125rem 0 0 3rem;
 
 }
 
 h2{
+   margin: 5rem 0 0 0;
    padding: .3125rem;
    font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1rem;
+  padding: .3125rem;
+
 }
 
