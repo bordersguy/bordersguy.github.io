@@ -26,14 +26,6 @@ body {
 
 }
 
-#gamedevbackground{
-  background: url('../images/colored_grass.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-}
-
 .container  {
   width: 48rem;
   margin: 0 auto 0 auto;
@@ -70,14 +62,8 @@ body {
   width: 100%;
   height: 4rem;
   z-index: -1;
-  background: #61c2d8;
-}
-
-#darkpurle{
   background: purple;
-
 }
-
 
 #footer{
   position: fixed;
