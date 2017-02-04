@@ -34,6 +34,14 @@ body {
 
 }
 
+#spacebackground{
+  background: url('../images/galaxy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
 .container  {
   width: 48rem;
   margin: 0 auto 0 auto;
@@ -92,6 +100,20 @@ body {
 .paddingleft {
     padding: 0 0 0 0;
     
+}
+
+.gamesettings{
+  width: 40rem;
+  height: 30rem;
+  border: gray solid .312rem;
+
+}
+
+.gamesettings2{
+  width: 50rem;
+  height: 60rem;
+  border: gray solid .312rem;
+
 }
 
 h1{
