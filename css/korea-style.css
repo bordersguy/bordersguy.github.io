@@ -8,6 +8,7 @@ html{
 body {
   background: url('../images/koreaimages/background.png') no-repeat fixed center;
   font-family: 'Open Sans', arial, sans-serif;
+  overflow-x: hidden; 
 }
 
 {
