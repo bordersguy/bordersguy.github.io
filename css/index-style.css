@@ -103,6 +103,12 @@ body {
   border: gray solid .3125rem;
 }
 
+.border2{
+  border: black solid .175rem;
+  box-shadow: 3px 3px 10px ;
+  margin-bottom: 1rem;
+}
+
 .round{
   border-radius: 50%;
 
@@ -206,6 +212,7 @@ body {
 #footergap{
   margin-bottom: 1rem;
 
+
 }
 
 
@@ -238,6 +245,8 @@ h3{
 
 h4{
   font-size: 1rem;
+  margin-top: 0;
+
 
 }
 
