@@ -18,7 +18,10 @@
 
 }
 
-#xscenter: .center-block{
+#centerxs{
+	margin: 0 auto;
+    text-align: center;
+
 	
 }
 
