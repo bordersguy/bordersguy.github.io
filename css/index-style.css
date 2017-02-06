@@ -1,8 +1,16 @@
 /*
  * General Styles
+
+  #65B1D3
+  #1CAAEA
+  #16739D
+  #2D586C
+  #052E41
+
 */
 html{
   font-size: 100%;
+  height: 100%;
 }
 
 body {
@@ -23,10 +31,10 @@ body {
 */
 
 #mainbackground{
-  background: url('../images/cape.jpg') ;
+  /*background: url('../images/cape.jpg') ;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: scroll;
+  background-attachment: scroll;*/
   background-color: #f4f1de;
 }
 
@@ -60,8 +68,8 @@ body {
 
 .containermain  {
   width: 48rem;
-  margin: 13rem auto 0 auto;
-  padding: 7rem 0 5rem 0;
+  margin: 5rem auto 0 auto;
+  padding: 1rem 0 5rem 0;
 
 }
 
@@ -82,8 +90,26 @@ body {
   border-radius: .25rem;
 }
 
+.fadedbackgroundblack{
+  background: rgba(0,0,0,.60);
+  border-radius: .25rem;
+  width: 75%;
+
+}
+
 .border{
   border: gray solid .3125rem;
+}
+
+.round{
+  border-radius: 50%;
+
+}
+
+.centerimg{
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 #banner {
@@ -92,30 +118,47 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  height: 4rem;
+  height: auto;
   z-index: -1;
-  background: #61c2d8;
+  background: #052E41;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
 }
 
 #mainbanner {
   position: absolute;
-  top: 17rem;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+ 
+  background: #052E41;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+
+}
+
+#footerbanner {
+  position: absolute;
+  bottom: : 2rem;
   left: 0;
   right: 0;
   width: 100%;
   height: 4rem;
   z-index: -1;
-  background: #61c2d8;
+  background: #205ec1;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
 }
 
-#darkpurle{
+#darkpurple{
   background: purple;
 
+  width: 100%;
+
+
 }
+
 
 
 #footer{
@@ -124,6 +167,7 @@ body {
   bottom: 0;
   width: 100%;
   background-color: black;
+
 
 
 }
@@ -155,6 +199,19 @@ body {
 
 }
 
+#footergap{
+  margin-bottom: 1rem;
+
+}
+
+
+
+hr{
+  
+  border-top: 1px solid black;
+
+}
+
 h1{
   color: white;
   font-size: 3rem;
@@ -163,7 +220,7 @@ h1{
 }
 
 h2{
-   margin: 4rem 0 0 0;
+   margin: 0 0 0 0;
    padding: .3125rem;
    font-size: 1.5rem;
 }
@@ -176,6 +233,34 @@ h3{
 
 h4{
   font-size: 1rem;
+
+}
+
+h5{
+  color: white;
+  font-size: 2.5rem;
+
+}
+
+h6 {
+
+  color: white;
+  font-size: 2.5rem;
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+h6 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+p{
+  line-height: 1.25;
+  font-size: 1.25rem;
 
 }
 
