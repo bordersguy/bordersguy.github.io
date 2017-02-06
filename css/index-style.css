@@ -18,6 +18,8 @@ body {
   /* © 2012-2013 Julien Jorge <julien.jorge@stuff-o-matic.com>*/
   font-family: 'Open Sans', arial, sans-serif;
   overflow-x: hidden; 
+  padding: 0;
+  margin: 0;
 }
 
 {
@@ -35,7 +37,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: scroll;*/
-  background-color: #f4f1de;
+  background-color: #fffff4;
 }
 
 #cursedbackground{
@@ -75,12 +77,12 @@ body {
 
 .forcaption {
     background-color: #000;
-    bottom: 4rem;
+    bottom: 1rem;
     color: #fff;
     left: 1rem;
     opacity: 0.7;
     position: absolute;
-    width: 10rem;
+    width: 12rem;
     padding-left: .3125rem;
     font-size: 1.5rem;
 }
@@ -174,6 +176,8 @@ body {
 
 .paddingleft {
     padding: 0 0 0 0;
+    white-space: normal;
+    overflow-wrap: break-word;
     
 }
 
@@ -222,7 +226,8 @@ h1{
 h2{
    margin: 0 0 0 0;
    padding: .3125rem;
-   font-size: 1.5rem;
+   font-size: 2rem;
+
 }
 
 h3{
@@ -239,7 +244,8 @@ h4{
 h5{
   color: white;
   font-size: 2.5rem;
-
+ 
+  
 }
 
 h6 {
@@ -254,13 +260,15 @@ h6 {
 } 
 
 h6 span { 
-    background:#fff; 
+    background:#fffff4; 
     padding:0 10px; 
 }
 
 p{
   line-height: 1.25;
   font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif
+
 
 }
 
