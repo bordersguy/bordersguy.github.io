@@ -63,7 +63,7 @@ body {
 
 .container  {
   width: 48rem;
-  margin: 0 auto 0 auto;
+  margin: 5rem auto 0 auto;
   padding: 3rem 0 5rem; 0;
 
 }
@@ -71,7 +71,7 @@ body {
 .containermain  {
   width: 48rem;
   margin: 5rem auto 0 auto;
-  padding: 1rem 0 5rem 0;
+  padding: 1rem 0 1rem 0;
 
 }
 
@@ -147,8 +147,8 @@ body {
 }
 
 #footerbanner {
-  position: absolute;
-  bottom: : 2rem;
+  position: fixed;
+  bottom:  2rem;
   left: 0;
   right: 0;
   width: 100%;
@@ -170,11 +170,11 @@ body {
 
 
 #footer{
-  position: fixed;
-  height: 10%;
-  bottom: 0;
+ /* position: absolute;*/
+  height: 5rem;
+
   width: 100%;
-  background-color: black;
+  background-color: #2D586C;
 
 
 
