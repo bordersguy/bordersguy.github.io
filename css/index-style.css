@@ -78,6 +78,13 @@ body {
 
 }
 
+.containercontact{
+  width: 48rem;
+  margin: 2rem auto 0 auto;
+  padding: 1rem 0 1rem 0;
+
+}
+
 .forcaption {
     background-color: #000;
     bottom: 1rem;
@@ -176,7 +183,7 @@ body {
  /* position: absolute;*/
   height: auto;
 
-  width: 100%;
+  /*width: 100%;*/
   background-color: #2D586C;
   padding: 1rem 0 1rem 1rem;
   font-size: 1.5rem;
@@ -309,6 +316,11 @@ p{
 
 
 }
+
+a:link {
+    text-decoration: none;
+}
+
 
 /*hover effect*/
 
