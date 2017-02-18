@@ -62,7 +62,9 @@ body {
 }
 
 .navborder {
-  border-bottom: 1px black solid}
+  border-bottom: 1px black solid
+  width: auto;
+}
 
 .container  {
   width: 48rem;
