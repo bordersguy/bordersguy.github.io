@@ -35,8 +35,22 @@
 
 }
 
+#smallheading{
+  font-size: 2.0rem;
+
+}
+
 /*h5{
 	font-size: 1.5rem;
 
 }*/
 
+#colmarginright{
+  margin-right: -10rem;
+
+}
+
+#colmarginleft{
+  margin-left: -10rem;
+
+}
